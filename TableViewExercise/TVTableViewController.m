@@ -75,14 +75,17 @@
     if( indexPath.section == 0)
     {
         cell.textLabel.text = @"Section 0";
+        cell.backgroundColor = [UIColor redColor];
     }
     else if( indexPath.section == 1)
     {
         cell.textLabel.text = @"Section 1";
+        cell.backgroundColor = [UIColor blueColor];
     }
     else
     {
         cell.textLabel.text = [[NSString alloc] initWithFormat:@"Cell %i",indexPath.row];
+        cell.backgroundColor = [UIColor yellowColor];
     }
     
     return cell;
