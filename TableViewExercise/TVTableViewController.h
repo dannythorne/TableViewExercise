@@ -1,5 +1,5 @@
 //
-//  TVViewController.h
+//  TVTableViewController.h
 //  TableViewExercise
 //
 //  Created by Danny Thorne on 7/30/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TVViewController : UIViewController
+@interface TVTableViewController : UITableViewController
 
 @end

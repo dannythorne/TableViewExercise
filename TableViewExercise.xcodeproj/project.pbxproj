@@ -14,13 +14,13 @@
 		07B41E881989420E00B78307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B41E871989420E00B78307 /* main.m */; };
 		07B41E8C1989420E00B78307 /* TVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B41E8B1989420E00B78307 /* TVAppDelegate.m */; };
 		07B41E8F1989420E00B78307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07B41E8D1989420E00B78307 /* Main.storyboard */; };
-		07B41E921989420E00B78307 /* TVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B41E911989420E00B78307 /* TVViewController.m */; };
 		07B41E941989420E00B78307 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07B41E931989420E00B78307 /* Images.xcassets */; };
 		07B41E9B1989420E00B78307 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B41E9A1989420E00B78307 /* XCTest.framework */; };
 		07B41E9C1989420E00B78307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B41E7B1989420E00B78307 /* Foundation.framework */; };
 		07B41E9D1989420E00B78307 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B41E7F1989420E00B78307 /* UIKit.framework */; };
 		07B41EA51989420E00B78307 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07B41EA31989420E00B78307 /* InfoPlist.strings */; };
 		07B41EA71989420E00B78307 /* TableViewExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B41EA61989420E00B78307 /* TableViewExerciseTests.m */; };
+		07B41EB219895E7500B78307 /* TVTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B41EB119895E7500B78307 /* TVTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		07B41E8A1989420E00B78307 /* TVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVAppDelegate.h; sourceTree = "<group>"; };
 		07B41E8B1989420E00B78307 /* TVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVAppDelegate.m; sourceTree = "<group>"; };
 		07B41E8E1989420E00B78307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		07B41E901989420E00B78307 /* TVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TVViewController.h; sourceTree = "<group>"; };
-		07B41E911989420E00B78307 /* TVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TVViewController.m; sourceTree = "<group>"; };
 		07B41E931989420E00B78307 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		07B41E991989420E00B78307 /* TableViewExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07B41E9A1989420E00B78307 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		07B41EA21989420E00B78307 /* TableViewExerciseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewExerciseTests-Info.plist"; sourceTree = "<group>"; };
 		07B41EA41989420E00B78307 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07B41EA61989420E00B78307 /* TableViewExerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewExerciseTests.m; sourceTree = "<group>"; };
+		07B41EB019895E7500B78307 /* TVTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVTableViewController.h; sourceTree = "<group>"; };
+		07B41EB119895E7500B78307 /* TVTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +115,10 @@
 				07B41E8A1989420E00B78307 /* TVAppDelegate.h */,
 				07B41E8B1989420E00B78307 /* TVAppDelegate.m */,
 				07B41E8D1989420E00B78307 /* Main.storyboard */,
-				07B41E901989420E00B78307 /* TVViewController.h */,
-				07B41E911989420E00B78307 /* TVViewController.m */,
 				07B41E931989420E00B78307 /* Images.xcassets */,
 				07B41E821989420E00B78307 /* Supporting Files */,
+				07B41EB019895E7500B78307 /* TVTableViewController.h */,
+				07B41EB119895E7500B78307 /* TVTableViewController.m */,
 			);
 			path = TableViewExercise;
 			sourceTree = "<group>";
@@ -252,7 +252,7 @@
 			files = (
 				07B41E8C1989420E00B78307 /* TVAppDelegate.m in Sources */,
 				07B41E881989420E00B78307 /* main.m in Sources */,
-				07B41E921989420E00B78307 /* TVViewController.m in Sources */,
+				07B41EB219895E7500B78307 /* TVTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
